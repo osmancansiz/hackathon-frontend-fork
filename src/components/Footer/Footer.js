@@ -8,7 +8,7 @@ class Footer extends Component {
       color: 'white',
       padding: '24px',
     };
-    return <div style={footerStyle}>© Second Opinion.</div>;
+    return <div style={footerStyle}>©JUG_Istanbul Greenfield:Hackathon Second-Opinion</div>;
   }
 }
 
