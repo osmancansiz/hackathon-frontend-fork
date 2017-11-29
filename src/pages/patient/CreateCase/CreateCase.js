@@ -10,7 +10,7 @@ import {control} from '../../../utils/form';
 import Layout from "../../../layout/Layout";
 
 class CreateCase extends Component {
-    constructor(props) {
+        constructor(props) {
         super(props);
         this.state = {
             isSuccess: false,
@@ -39,8 +39,6 @@ class CreateCase extends Component {
     }
 
     handleRequestDelete = data => () => {
-
-
         const medicine = [...this.state.medicine];
         const medicineToDelete = medicine.indexOf(data);
         medicine.splice(medicineToDelete, 1);
